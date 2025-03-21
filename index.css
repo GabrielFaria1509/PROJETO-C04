@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+}
+ul{
+    display: flex; /* centraliza os elementos da lista */
+    justify-content: space-between; /* espaço entre os elementos */
+    list-style-type: none;      /* remove os pontos da lista */
+    align-items: center;        /* centraliza os elementos verticalmente */
+    padding: 16px;                 /* remove o padding padrão */
+    
+}
+img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border:5px solid orange;
+    display: left;
+}
